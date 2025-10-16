@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small custom base rules to keep accessibility and consistent layout */
+html, body, #root {
+  height: 100%;
+}
+body {
+  /* Use explicit colors here to avoid @apply errors during PostCSS processing */
+  background-color: #f8fafc; /* slate-50 */
+  color: #0f172a; /* slate-800 */
+}

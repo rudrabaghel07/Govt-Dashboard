@@ -1,0 +1,7 @@
+
+/* App-level fallback styles left intentionally minimal because Tailwind handles the UI.
+   Keep this file imported to avoid build-time import errors from previous layout. */
+
+/* small helper to keep mono code tags readable */
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Segoe UI Mono'; }
+
